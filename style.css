@@ -8,7 +8,7 @@ body {
 }
 
 header h1 {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     color: white;
 }
@@ -62,9 +62,10 @@ iframe {
 
 img {
     padding: 10px;
-    border: 5px solid rgb(242, 238, 238);
-    height: 350px;
-    width: 350px;   
+    /* border: 5px solid rgb(242, 238, 238); */
+    height: 120px;
+    width: 120px;   
+    border-radius: 20%;
 }
 
 #left{
@@ -90,6 +91,11 @@ button{
 }
 
 button:hover {background-color: #3e8e41}
+
+    #resbut{
+    display:'block';
+    text-align:'center';
+    }
 
 .fa {
     padding: 20px;
@@ -145,6 +151,14 @@ footer a {
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    float: left;
+    /* float: left; */
+    color: white;
+}
+
+footer #cpyri8{
+    text-decoration: solid;
+    text-align: center;
+    float: right;
+    padding: 20px;
     color: white;
 }
